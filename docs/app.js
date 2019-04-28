@@ -2,7 +2,7 @@ var app = new Vue({
   el: '#app',
   data() {
     return {
-      message: 'Hello Restaurandom!',
+      message: 'Restaurandom',
       shop: null,
       shops: []
     }
