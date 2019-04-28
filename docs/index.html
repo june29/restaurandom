@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Restaurandom</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{ message }}</h1>
+      <p v-if="shop">
+        <a :href="shop.url" target="_blank">{{ shop.name }}</a>
+      </p>
+      <p>
+        <span v-on:click="pick">Pick!</span>
+      </p>
+      <ul>
+        <li v-for="shop in shops">
+          {{ shop.name }}
+        </li>
+      </ul>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
