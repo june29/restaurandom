@@ -1,25 +1,40 @@
-<html>
-  <head>
-    <title>Restaurandom</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
-  </head>
-  <body>
-    <div id="app">
-      <h1>{{ message }}</h1>
-      <p v-if="shop">
-        <a :href="shop.url" target="_blank">{{ shop.name }}</a>
-      </p>
-      <p>
-        <span v-on:click="pick">Pick!</span>
-      </p>
-      <ul>
-        <li v-for="shop in shops">
-          {{ shop.name }}
-        </li>
-      </ul>
-    </div>
-    <script src="./app.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="keywords" content="レストラン,ランダム">
+<meta name="description" content="好きなレストランをランダムに選べる「Restaurandom」">
+<meta property="og:title" content="Restaurandom">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://june29.github.io/restaurandom/">
+<meta property="og:image" content="https://june29.github.io/restaurandom/common/img/ogp.png">
+<meta property="og:site_name" content="Restaurandom">
+<meta property="og:description" content="好きなレストランをランダムに選べる「Restaurandom」">
+<title>Restaurandom</title>
+<link rel="shortcut icon" href="common/img/favicon.png">
+<link rel="stylesheet" href="common/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+</head>
+<body>
+<div id="app">
+  <h1 class="img"><img src="common/img/ogp.png"></h1>
+  <p class="shop" v-if="shop">
+    <a :href="shop.url" target="_blank">{{ shop.name }}</a>
+  </p>
+  <p class="button">
+    <span v-on:click="pick">{{ message }}</span>
+  </p>
+  <ul class="shops">
+    <li v-for="shop in shops">
+      {{ shop.name }}
+    </li>
+  </ul>
+</div>
+<script src="common/js/app.js"></script>
+</body>
 </html>

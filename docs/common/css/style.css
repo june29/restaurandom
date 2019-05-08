@@ -1,0 +1,123 @@
+@charset "utf-8";
+/*	==================================================
+	reset
+	================================================== */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* box-sizing
+================================================== */
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+/* body
+================================================== */
+body {
+	color: #666;
+	font-size: 14px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	line-height: 1.0em;
+	background: #ffffff;
+	text-align: center;
+	-webkit-text-size-adjust: 100%;
+}
+
+/* a
+================================================== */
+a {
+	text-decoration: underline;
+	outline: none;
+	cursor: pointer;
+}
+a:link,
+a:visited {
+	color: #;
+}
+a:hover,
+a:active,
+a:focus {
+	color: #;
+	text-decoration:none;
+}
+
+/* style
+================================================== */
+#app {
+	display: table;
+	margin: 0px auto;
+	text-align: left;
+}
+.img img {
+	width: 100%;
+	height: auto;
+}
+.shop {
+	display: block;
+	margin: 30px auto;
+	text-align: center;
+	font-size: 120%;
+	font-weight: bold;
+}
+.shop a {
+	color: #f39800;}
+.button span {
+     display:block;
+     margin: 0 40px;
+     padding: 30px;
+     color: #fff;
+     text-align: center;
+     background: #f39800;
+     border-bottom: solid 6px #ec6c00;
+     border-radius: 10px;
+     font-size: 180%;
+     font-family: 'Josefin Sans', sans-serif;
+     letter-spacing: 0.05em;
+}
+.shops {
+	margin: 20px;
+	font-size: 80%;
+}
+
+/*	==================================================
+	Media Queries
+	================================================== */
+@media screen and (max-width: 767px) {
+
+}
