@@ -1,17 +1,5 @@
 [
   {
-    "url": "https://tabelog.com/tokyo/A1307/A130701/13058188/",
-    "name": "御曹司きよやす邸"
-  },
-  {
-    "url": "https://tabelog.com/tokyo/A1307/A130701/13057215/",
-    "name": "とん豚テジ 六本木店"
-  },
-  {
-    "url": "https://tabelog.com/tokyo/A1307/A130701/13156035/",
-    "name": "KollaBo 六本木店"
-  },
-  {
     "url": "https://tabelog.com/tokyo/A1307/A130701/13205825/",
     "name": "旬菜えむず"
   },
@@ -60,8 +48,16 @@
     "name": "鉄板焼 grow 六本木店"
   },
   {
+    "url": "https://tabelog.com/tokyo/A1307/A130701/13057215/",
+    "name": "とん豚テジ 六本木店"
+  },
+  {
     "url": "https://tabelog.com/tokyo/A1307/A130701/13001979/",
     "name": "モティ 六本木店"
+  },
+  {
+    "url": "https://tabelog.com/tokyo/A1307/A130701/13156035/",
+    "name": "KollaBo 六本木店"
   },
   {
     "url": "https://tabelog.com/tokyo/A1307/A130701/13227768/",
@@ -108,11 +104,19 @@
     "name": "豚組食堂"
   },
   {
+    "url": "https://tabelog.com/tokyo/A1307/A130701/13058188/",
+    "name": "御曹司きよやす邸"
+  },
+  {
     "url": "https://tabelog.com/tokyo/A1307/A130701/13035997/",
     "name": "まぐろだけボーノ　白川"
   },
   {
     "url": "https://tabelog.com/tokyo/A1307/A130701/13037405/",
     "name": "六本木 SHALALA"
+  },
+  {
+    "url": "https://tabelog.com/tokyo/A1307/A130701/13206836/",
+    "name": "茶彩 絲"
   }
 ]
